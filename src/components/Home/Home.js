@@ -15,7 +15,7 @@ const Home = () => {
                 .catch((err) => {
                     console.log("Err :", err);
                 });
-            console.log("The response from api ", response);
+           //console.log("The response from api ", response);
             dispatch(addMovies(response.data));
         }
 
